@@ -26,7 +26,7 @@ def image_to_css_box_shadow(image_path, width_em, height_em):
     return ', '.join(box_shadows)
 
 if __name__ == "__main__":
-    image_path = 'trial-1.png'
+    image_path = 'final-art.png'
     width_em = 100  # The width of the image in em units
     height_em = 200  # The height of the image in em units
     css_box_shadow = image_to_css_box_shadow(image_path, width_em, height_em)
